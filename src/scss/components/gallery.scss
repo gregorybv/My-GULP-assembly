@@ -148,14 +148,14 @@
 
 //=============CSS=====================
 
-// @media (max-width: 1169.98px) {
-//   .gallery__block_hidefirst {
-//     display: none;
-//   }
-// }
+@media (max-width: 1169.98px) {
+  .gallery__block_hidefirst {
+    display: none;
+  }
+}
 
-// @media (max-width: 767.98px) {
-//   .gallery__block_hidesecond {
-//     display: none;
-//   }
-// }
+@media (max-width: 767.98px) {
+  .gallery__block_hidesecond {
+    display: none;
+  }
+}
