@@ -1,5 +1,5 @@
 @import "fonts";
-
+// style reset
 *,
 *::before,
 *::after {
@@ -36,6 +36,7 @@ body {
   font-family: "Muller", sans-serif;
 }
 
+// personal styles
 /*=== WRAPPER ===*/
 .wrapper {
   min-height: 100%;
