@@ -10,7 +10,7 @@
 // import { registerform } from "./functions/register-form.js";
 
 // Модальное окно
-import { modalWindow } from "./functions/modalWindow";
+// import { modalWindow } from "./functions/modalWindow";
 
 // Определение операционной системы на мобильных
 // import { mobileCheck } from "./functions/mobile-check";
