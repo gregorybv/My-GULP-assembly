@@ -75,7 +75,7 @@
   display: none;
 }
 
-/* Первая страница */
+//=== Первая страница ===//
 
 #registerForm #nextPage, #registerForm #submit {
   margin-bottom: 100px;
@@ -87,7 +87,7 @@
   background: #3972e4;
 }
 
-/* Вторая страница */
+//=== Вторая страница ===//
 
 #registerForm #previousPage {
   width: auto;
@@ -125,7 +125,7 @@
   margin-bottom: 23px;
 }
 
-/* Вторая страница: выбор пола */
+//=== Вторая страница: выбор пола ===//
 
 #registerForm #radioGender {
   display: flex;
@@ -170,7 +170,7 @@ width: 100%;
   height: 100%;
 }
 
-/* Вторая страница, чекбоксы */
+//=== Вторая страница, чекбоксы ===//
 
 #registerForm .checkboxes {
   display: flex;
@@ -189,7 +189,7 @@ width: 100%;
   margin-bottom: 23px;
 }
 
-/* Ошибки */
+//=== Ошибки ===//
 
 #registerForm section .error {
   border: solid red 2px !important;
