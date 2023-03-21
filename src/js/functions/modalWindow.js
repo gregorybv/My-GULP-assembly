@@ -1,29 +1,25 @@
-let _a, _b, _c;
-const refs = {
-  overlay: document.getElementById("overlay"),
-  modalWindow: document.getElementById("modalWindow"),
-  closeBtn: document.getElementById("closeBtn"),
-  openBtn: document.getElementById("openBtn"),
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function () {
+  modal.style.display = "block";
 };
-const classes = {
-  openModal: "open-modal",
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function () {
+  modal.style.display = "none";
 };
-(a = refs.openBtn) === null || a === void 0
-  ? void 0
-  : a.addEventListener("click", handleModal);
-(_b = refs.closeBtn) === null || _b === void 0
-  ? void 0
-  : _b.addEventListener("click", handleModal);
-(_c = refs.overlay) === null || _c === void 0
-  ? void 0
-  : _c.addEventListener("click", handleModal);
-document.addEventListener("keydown", handleModalClose);
-function handleModal() {
-  document.body.classList.toggle(classes.openModal);
-}
-function handleModalClose(a) {
-  const code = a.code;
-  if (code === "Escape") {
-    document.body.classList.remove(classes.openModal);
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
   }
-}
+};
