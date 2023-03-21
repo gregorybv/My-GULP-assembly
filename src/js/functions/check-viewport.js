@@ -1,3 +1,4 @@
+//isMobile
 export const isMobile = () => {
   if (window.innerWidth < 768) {
     return true;
@@ -6,6 +7,7 @@ export const isMobile = () => {
   return false;
 };
 
+// isTablet
 export const isTablet = () => {
   if (window.innerWidth >= 769 && window.innerWidth <= 1024) {
     return true;
@@ -14,6 +16,7 @@ export const isTablet = () => {
   return false;
 };
 
+// isDesktop
 export const isDesktop = () => {
   if (window.innerWidth > 1025) {
     return true;
