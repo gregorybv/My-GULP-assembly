@@ -1,56 +1,3 @@
-// .navbar__content {
-//   display: flex;
-//   justify-content: space-between;
-//   align-items: center;
-// }
-
-// .navbar__menu {
-//   display: flex;
-// }
-
-// .hamburger {
-//   display: none;
-// }
-
-// .hamburger__bar {
-//   display: block;
-//   width: 25px;
-//   height: 3px;
-//   margin: 5px auto;
-//   background-color: #fff;
-//   transition: all 0.3s ease-in-out;
-// }
-
-// @media only screen and (max-width: 768px) {
-//   .hamburger {
-//     display: block;
-//     padding: 1rem;
-//   }
-
-//   .navbar__menu {
-//     position: fixed;
-//     left: -100%;
-//     background: #1b1b1b;
-//     flex-direction: column;
-//     top: 80px;
-//     height: 100%;
-//     width: 60%;
-//     transform: 0.3s;
-//   }
-
-//   .navbar__menu li {
-//     padding: 1rem;
-//   }
-
-//   .navbar__menu a {
-//     font-size: 2rem;
-//   }
-
-//   .navbar__menu.active {
-//     left: 0;
-//   }
-// }
-
 .navbar {
   position: fixed;
   top: 0;
@@ -148,6 +95,7 @@
     }
   }
 }
+
 .hamburger {
   display: none;
 
