@@ -4,15 +4,16 @@
 @import "fonts";
 @import "settings";
 
-// подключения компонентов страницы
+// подключения секций страницы
 @import "./components/header.scss";
 // @import "./components/navbar.scss";
-// @import "./components/navbar_hamburger.scss";
 // @import "./components/hero";
+@import "./components/footer.scss";
+
+// подключения готовых компонентов
+// @import "./components/navbar_hamburger.scss";
 // @import "./components/form.scss";
 // @import "./components/gallery.scss";
 // @import "./components/register-form.scss";
 // @import "./components/slider.scss";
 // @import "./components/modalWindow.scss";
-@import "./components/footer.scss";
-
