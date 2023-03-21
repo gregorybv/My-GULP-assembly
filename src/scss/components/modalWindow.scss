@@ -1,0 +1,47 @@
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #0000006e;
+  display: none;
+}
+
+.modal-window {
+  font-size: 30px;
+  width: 50%;
+  text-align: center;
+  background-color: #c7c3c3;
+  padding: 20px 30px;
+  border: 2px solid black;
+  border-radius: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.close-btn {
+  background-color: transparent;
+  font-size: 20px;
+  color: red;
+  border: none;
+  text-decoration: underline;
+
+  cursor: pointer;
+}
+
+.open-btn {
+  background-color: rgb(41, 188, 41);
+  font-size: 50px;
+  color: white;
+  border: 3px solid black;
+  padding: 10px 15px;
+  border-radius: 15px;
+  margin: 0 auto;
+  display: block;
+
+  cursor: pointer;
+}
