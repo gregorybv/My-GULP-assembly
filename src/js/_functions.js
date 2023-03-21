@@ -7,12 +7,7 @@
 // import { slider } from "./functions/slider";
 
 // Форма регистрации
-// import {registerform } from './functions/register-form.js'
-
-
-
-
-
+// import { registerform } from "./functions/register-form.js";
 
 // Определение операционной системы на мобильных
 // import { mobileCheck } from "./functions/mobile-check";
