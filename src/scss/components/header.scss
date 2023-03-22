@@ -1,16 +1,35 @@
 .header {
-  margin-top: 10px;
+  height: 600px;
+  background-image: url("https://images.unsplash.com/photo-1671523435843-e3cd426c24e4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
-  &__content {}
+  &__content {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    color: var(--light-color);
+    line-height: normal;
+  }
 
-  &__text {}
+  &__text {
+    font-weight: 700;
+    font-size: 42px;
+  }
 
-  &__subtext {}
+  &__subtext {
+    font-weight: 400;
+    font-size: 28px;
+  }
 
   &__button {
+    margin-top: 60px;
+
     cursor: pointer;
   }
 }
-
-
-
