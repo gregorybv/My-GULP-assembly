@@ -1,9 +1,12 @@
 .navbar {
   position: sticky;
-  top: 10px;
+
+
+  background: var(--grays-transparent);
   // margin-top: 20px;
 
   &__content {
+    height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -62,7 +65,7 @@
     color: var(--light-color);
     background-color: chartreuse;
     border-radius: 10px;
-
+    font-weight: bold;
     font-size: 18px;
   }
 }
