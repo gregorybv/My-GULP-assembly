@@ -57,14 +57,17 @@ body {
 
 /*=== DARK/LIGHT THEME ===*/
 
-.theme-dark {
-  background: black;
-  color: white;
+#color {
+  color: #fff;
+  background: #000;
 }
-
-.theme-light {
-  background: white;
-  color: black;
+.dark {
+  background: #000;
+  color: #fff;
+}
+.dark #color {
+  color: #000;
+  background: #fff;
 }
 
 /*=== TITLE h2 ===*/
