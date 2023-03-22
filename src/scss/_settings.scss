@@ -55,6 +55,18 @@ body {
   padding: 0 15px;
 }
 
+/*=== DARK/LIGHT THEME ===*/
+
+.theme-dark {
+  background: black;
+  color: white;
+}
+
+.theme-light {
+  background: white;
+  color: black;
+}
+
 /*=== TITLE h2 ===*/
 .title-h2 {
   font-weight: 700;
