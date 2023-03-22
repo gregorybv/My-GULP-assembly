@@ -1,26 +1,11 @@
-// на старте тёмная тема не установлена
-const dark = false;
-// получаем доступ ко всей странице и к абзацу с переключателем
-const a = document.body;
-const p = document.getElementById("select")
-
-// эта функция будет срабатывать при нажатии на переключатель
-function darkLight() {
-	// если тёмная тема не активна
-	if (!dark) {
-		// добавляем класс с тёмной темой ко всей странице
-		a.className = "theme-dark";
-		// меняем надпись на переключателе
-		p.innerHTML = "Включить светлую тему";
-	// а если активна —
-	} else {
-		// добавляем класс со светлой темой ко всей странице
-		a.className = "theme-light";
-		// меняем надпись на переключателе
-		p.innerHTML = "Включить тёмную тему";
-	}
-
-	// меняем значение темы на противоположное
-	dark = !dark;
-
+if (localStorage.getItem("style") == "dark") {
+  document.body.classList.toggle("dark");
 }
+document.querySelector("#color").onclick = function () {
+  document.body.classList.toggle("dark");
+  if (document.body.getAttribute("class") == "dark") {
+    localStorage.setItem("style", "dark");
+  } else {
+    localStorage.setItem("style", "");
+  }
+};
