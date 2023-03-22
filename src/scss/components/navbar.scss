@@ -1,5 +1,6 @@
 .navbar {
   position: sticky;
+  top: 10px;
   // margin-top: 20px;
 
   &__content {
@@ -33,6 +34,9 @@
   }
 
   &__item {
+    font-size: 18px;
+    color: var(--light-color);
+
     &:hover {
       text-decoration: underline;
       text-underline-offset: 6px;
@@ -40,6 +44,9 @@
   }
 
   &__link {
+    color: var(--light-color);
+    font-size: 18px;
+
     @media (max-width: 915px) {
       font-size: 16px;
     }
@@ -51,8 +58,11 @@
   }
 
   &__button {
-    background-color: chartreuse;
     padding: 10px;
+    color: var(--light-color);
+    background-color: chartreuse;
     border-radius: 10px;
+
+    font-size: 18px;
   }
 }
