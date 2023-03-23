@@ -1,8 +1,10 @@
+//=== styles for form ===//
+
 .forma {
   // max-width: 900px;
 
   &__form {
-    margin:0 auto ;
+    margin: 0 auto;
     max-width: 900px;
     display: flex;
     flex-direction: column;
