@@ -1,17 +1,17 @@
 //=== SUMMARY FILE ===//
 
-//=== базовые подключения ===//
+//=== basic connections ===//
 @import "vars";
 @import "mixins";
 @import "fonts";
 @import "settings";
 
-//=== подключение секций страницы ===//
+//=== connecting page sections ===//
 @import "./components/header.scss";
 // @import "./components/hero";
 @import "./components/footer.scss";
 
-//=== подключение готовых компонентов ===//
+//=== connecting ready-made components ===//
 @import "./components/navbar.scss";
 // @import "./components/navbar_hamburger.scss";
 // @import "./components/form.scss";
