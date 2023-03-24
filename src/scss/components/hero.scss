@@ -1,1 +1,51 @@
 //=== STYLES FOR HERO ===//
+.hero {
+  margin-top: 70px;
+  margin-bottom: 70px;
+
+  // .hero__content
+
+  &__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+
+  }
+
+  // .hero__item
+
+  &__item {
+    max-width: 670px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  // .hero__text
+
+  &__text {
+  }
+
+  // .hero__subtext
+
+  &__subtext {
+    // .hero__subtext_item
+
+    &_item {
+      color: #e1dbdb;;
+    }
+  }
+
+  // .hero__fon
+
+  &__fon {
+
+  }
+
+  // .hero__img
+
+  &__img {
+  }
+}
