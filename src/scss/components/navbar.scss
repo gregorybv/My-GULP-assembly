@@ -1,8 +1,8 @@
 //=== STYLES FOR NAVBAR ===//
 
 .navbar {
-  position: sticky;
-
+  position: fixed;
+  width: 100%;
   background: var(--grays-transparent);
   // margin-top: 20px;
 
