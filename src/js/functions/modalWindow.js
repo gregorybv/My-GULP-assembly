@@ -1,28 +1,49 @@
-// Get the modal
+// //=== FOR ONE BUTTON ===//
+// // Get the modal
+// const modal = document.getElementById("myModal");
+
+// // Get the button that opens the modal
+// const btn = document.getElementById("myBtn");
+
+// // Get the <span> element that closes the modal
+// const span = document.getElementsByClassName("close")[0];
+
+// // When the user clicks on the button, open the modal
+// btn.onclick = function () {
+//   modal.style.display = "block";
+// };
+
+// // When the user clicks on <span> (x), close the modal
+// span.onclick = function () {
+//   modal.style.display = "none";
+// };
+
+// // When the user clicks anywhere outside of the modal, close it
+// window.onclick = function (event) {
+//   if (event.target == modal) {
+//     modal.style.display = "none";
+//   }
+// };
+
+/* ========================================== */
+//=== FOR MORE BUTTON ===//
+
+const buttons = document.querySelectorAll(".myBtn");
 const modal = document.getElementById("myModal");
+const span = document.querySelector(".close");
 
-// Get the button that opens the modal
-const btn = document.getElementById("myBtn");
+buttons.forEach(function (button) {
+  button.addEventListener("click", function () {
+    modal.style.display = "block";
+  });
+});
 
-// Get the <span> element that closes the modal
-const span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on the button, open the modal
-btn.onclick = function () {
-  modal.style.display = "block";
-};
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function () {
+span.addEventListener("click", function () {
   modal.style.display = "none";
-};
+});
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function (event) {
+window.addEventListener("click", function (event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
-};
-
-/* ========================================== */
-
+});
