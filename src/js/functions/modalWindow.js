@@ -28,22 +28,102 @@
 /* ========================================== */
 //=== FOR MORE BUTTON ===//
 
+// const buttons = document.querySelectorAll(".myBtn");
+// const modal = document.getElementById("myModal");
+// const span = document.querySelector(".close");
+
+// buttons.forEach(function (button) {
+//   button.addEventListener("click", function () {
+//     modal.style.display = "block";
+//   });
+// });
+
+// span.addEventListener("click", function () {
+//   modal.style.display = "none";
+// });
+
+// window.addEventListener("click", function (event) {
+//   if (event.target == modal) {
+//     modal.style.display = "none";
+//   }
+// });
+/* ================================== */
+
+const modalData = [
+  {
+    imgSrc: "../../assets/image/img1.png",
+    text: "General project structure. All required swap files and dependencies are already installed. All you need to do to get started is to type npm i at the command line to install Node. The node modules folder will appear in your project and you can start developing.",
+  },
+  {
+    imgSrc: "../../assets/image/img2.png",
+    text: "Text for image 2",
+  },
+  {
+    imgSrc: "../../assets/image/img3.png",
+    text: "Text for image 3",
+  },
+  {
+    imgSrc: "../../assets/image/img4.png",
+    text: "Text for image 4",
+  },
+  {
+    imgSrc: "../../assets/image/img5.png",
+    text: "Text for image 5",
+  },
+  {
+    imgSrc: "../../assets/image/img6.png",
+    text: "Text for image 6",
+  },
+  {
+    imgSrc: "../../assets/image/img7.png",
+    text: "Text for image 7",
+  },
+  {
+    imgSrc: "../../assets/image/img8.png",
+    text: "Text for image 8",
+  },
+  {
+    imgSrc: "../../assets/image/img9.png",
+    text: "Text for image 9",
+  },
+  {
+    imgSrc: "../../assets/image/img10.png",
+    text: "Text for image 10",
+  },
+  {
+    imgSrc: "../../assets/image/img11.png",
+    text: "Text for image 11",
+  },
+  {
+    imgSrc: "../../assets/image/img12.png",
+    text: "Text for image 12",
+  },
+  {
+    imgSrc: "../../assets/image/img13.png",
+    text: "Text for image 13",
+  },
+];
+// получаем элементы, на которые будем кликать, и модальное окно
 const buttons = document.querySelectorAll(".myBtn");
 const modal = document.getElementById("myModal");
-const span = document.querySelector(".close");
+const modalContent = document.querySelector(".modal-content");
 
-buttons.forEach(function (button) {
-  button.addEventListener("click", function () {
-    modal.style.display = "block";
-  });
+// прикрепляем обработчик клика на каждую кнопку
+buttons.forEach((button) => {
+  button.addEventListener("click", showModal);
 });
 
-span.addEventListener("click", function () {
-  modal.style.display = "none";
-});
-
-window.addEventListener("click", function (event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-});
+// отображаем модальное окно и подставляем нужную информацию внутрь
+function showModal() {
+  const index = Array.from(buttons).indexOf(this); // получаем индекс кнопки, на которую кликнули
+  modal.style.display = "block"; // показываем модальное окно
+  modalContent.innerHTML = `<span class="close">&times;</span>
+  <div class="modal__block">
+  <p class="modal__text subtitle">${modalData[index].text}</p>
+  <img src="${modalData[index].imgSrc}" class="modal__img" alt="modal img">
+  </div>`; // вставляем нужную информацию внутрь
+  const closeBtn = document.getElementsByClassName("close")[0]; // получаем кнопку закрытия модального окна
+  closeBtn.onclick = function () {
+    modal.style.display = "none"; // закрываем модальное окно
+  };
+}
