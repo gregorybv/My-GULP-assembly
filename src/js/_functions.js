@@ -11,7 +11,7 @@
 // import { registerform } from "./functions/register-form.js";
 
 // Модальное окно
-// import { modalWindow } from "./functions/modalWindow";
+import { modalWindow } from "./functions/modalWindow";
 
 // Dark/Light режим
 // import { darkLight } from "./functions/darkLight"
