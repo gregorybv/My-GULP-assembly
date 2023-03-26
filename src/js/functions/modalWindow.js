@@ -72,7 +72,7 @@ const modalData = [
   },
   {
     imgSrc: "../../assets/image/img6.png",
-    text: "Text for image 6",
+    text: "The _functions.js file is needed to import all the created js files of the project. It contains function connections for various project operations. Also through this file the work of various libraries, for example AOS is connected. You can find more details in the file itself. To connect a certain js file to the project you need to comment out the import of the function you need.",
   },
   {
     imgSrc: "../../assets/image/img7.png",
