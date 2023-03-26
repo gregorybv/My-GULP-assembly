@@ -84,7 +84,7 @@ const modalData = [
   },
   {
     imgSrc: "../../assets/image/img9.png",
-    text: "Text for image 9",
+    text: "The folder partials is designed to store the individual html elements of the project, which are later imported into the main html file.",
   },
   {
     imgSrc: "../../assets/image/img10.png",
