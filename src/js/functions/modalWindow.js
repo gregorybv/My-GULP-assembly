@@ -64,7 +64,7 @@ const modalData = [
   },
   {
     imgSrc: "../../assets/image/img4.png",
-    text: "Text for image 4",
+    text: "The assets folder is designed to store and further use pictures and photos. The build is configured to store only svg files in the svd folder. Files of other formats can be stored both in the image folder and in the root of the assets folder.You can change the paths and locations of the files, modifying the assembly for your own convenience, if necessary.",
   },
   {
     imgSrc: "../../assets/image/img5.png",
