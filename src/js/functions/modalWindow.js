@@ -100,7 +100,7 @@ const modalData = [
   },
   {
     imgSrc: "../../assets/image/img13.png",
-    text: "Text for image 13",
+    text: "The main.scss file is used as a summary file of all styles. It already has a lot of connections to different blocks. To use them, just find the appropriate file in the project, examine it, and comment out the appropriate line of code in main.scss.",
   },
 ];
 // получаем элементы, на которые будем кликать, и модальное окно
