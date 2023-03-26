@@ -80,7 +80,7 @@ const modalData = [
   },
   {
     imgSrc: "../../assets/image/img8.png",
-    text: "Text for image 8",
+    text: "The index.html file is a summary file for all the html elements in the project. The @include('folder/text.html') method is used to connect the individual html components. ",
   },
   {
     imgSrc: "../../assets/image/img9.png",
