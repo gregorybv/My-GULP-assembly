@@ -121,7 +121,7 @@ function showModal() {
   <div class="modal__block">
   <p class="modal__text subtitle">${modalData[index].text}</p>
   <img src="${modalData[index].imgSrc}" class="modal__img" alt="modal img">
-  </div>`; // вставляем нужную информацию внутрь
+  </div>`;
   const closeBtn = document.getElementsByClassName("close")[0]; // получаем кнопку закрытия модального окна
   closeBtn.onclick = function () {
     modal.style.display = "none"; // закрываем модальное окно
