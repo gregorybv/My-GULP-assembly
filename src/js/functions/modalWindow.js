@@ -96,7 +96,7 @@ const modalData = [
   },
   {
     imgSrc: "../../assets/image/img12.png",
-    text: "Text for image 12",
+    text: "The scss folder contains all of the project's style files. Note that the style classes have the same name as the classes in the html files of the assembly.",
   },
   {
     imgSrc: "../../assets/image/img13.png",
