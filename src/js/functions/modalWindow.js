@@ -92,7 +92,7 @@ const modalData = [
   },
   {
     imgSrc: "../../assets/image/img11.png",
-    text: "Text for image 11",
+    text: "The resources folder is mainly used for storing and using fonts. Only woff2 fonts are used in the assembly. But you can always plug in fonts of other formats by importing them.",
   },
   {
     imgSrc: "../../assets/image/img12.png",
