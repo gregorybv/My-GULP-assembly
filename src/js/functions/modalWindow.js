@@ -68,7 +68,7 @@ const modalData = [
   },
   {
     imgSrc: "../../assets/image/img5.png",
-    text: "Text for image 5",
+    text: "The js folder is used to store and use files like file.js. You can also change some of the data in this folder, but not all. You can learn about unchangeable files and folders in the following slides.",
   },
   {
     imgSrc: "../../assets/image/img6.png",
