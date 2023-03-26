@@ -88,7 +88,7 @@ const modalData = [
   },
   {
     imgSrc: "../../assets/image/img10.png",
-    text: "Text for image 10",
+    text: "The finished folder contains html files with ready-made pieces of code. This code can then be copied into a file you created in the root of the partials folder and used in the project.",
   },
   {
     imgSrc: "../../assets/image/img11.png",
