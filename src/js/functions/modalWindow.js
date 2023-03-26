@@ -56,7 +56,7 @@ const modalData = [
   },
   {
     imgSrc: "../../assets/image/img2.png",
-    text: "Text for image 2",
+    text: "The app folder is needed to build the application. All the data we create is compressed and converted into more accessible formats for the browser. It is this data that is then used to deplocate the application to the server.",
   },
   {
     imgSrc: "../../assets/image/img3.png",
