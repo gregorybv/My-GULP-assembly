@@ -60,7 +60,7 @@ const modalData = [
   },
   {
     imgSrc: "../../assets/image/img3.png",
-    text: "Text for image 3",
+    text: "The src folder contains the main folders and files to work with. It is not recommended to place project files outside the src folder, because you may have problems building the application. On the other hand, you can customize the build to your liking and change the paths and file locations.",
   },
   {
     imgSrc: "../../assets/image/img4.png",
