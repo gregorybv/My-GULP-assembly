@@ -84,15 +84,15 @@ const modalData = [
   },
   {
     imgSrc: "../../assets/image/img9.png",
-    text: "The folder partials is designed to store the individual html elements of the project, which are later imported into the main html file.",
+    text: "The folder <span class='hero__subtext_item'>partials</span> is designed to store the <span class='hero__subtext_item'>individual</span> html elements of the project, which <span class='hero__subtext_item'>are later imported</span> into the <span class='hero__subtext_item'>main</span> html file.",
   },
   {
     imgSrc: "../../assets/image/img10.png",
-    text: "The finished folder contains html files with ready-made pieces of code. This code can then be copied into a file you created in the root of the partials folder and used in the project.",
+    text: "The <span class='hero__subtext_item'>finished</span> folder contains html files with <span class='hero__subtext_item'>ready-made pieces</span> of code. This code can then <span class='hero__subtext_item'>be copied</span> into a file you created in the root of the partials folder and <span class='hero__subtext_item'>used in the project</span>.",
   },
   {
     imgSrc: "../../assets/image/img11.png",
-    text: "The resources folder is mainly used for storing and using fonts. Only woff2 fonts are used in the assembly. But you can always plug in fonts of other formats by importing them.",
+    text: "The <span class='hero__subtext_item'>resources</span> folder is mainly used for <span class='hero__subtext_item'>storing and using fonts</span>. <span class='hero__subtext_item'>Only woff2</span> fonts are used in the assembly. But you can always <span class='hero__subtext_item'>plug in</span> fonts of other formats by <span class='hero__subtext_item'>importing them</span>.",
   },
   {
     imgSrc: "../../assets/image/img12.png",
