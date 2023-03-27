@@ -56,23 +56,23 @@ const modalData = [
   },
   {
     imgSrc: "../../assets/image/img2.png",
-    text: "The app folder is needed to build the application. All the data we create is compressed and converted into more accessible formats for the browser. It is this data that is then used to deplocate the application to the server.",
+    text: "The <span class='hero__subtext_item'>app</span> folder is needed to <span class='hero__subtext_item'>build the application</span>. All the data we create is <span class='hero__subtext_item'>compressed</span> and <span class='hero__subtext_item'>converted</span> into more accessible formats for <span class='hero__subtext_item'>the browser</span>. It is <span class='hero__subtext_item'>this data</span> that is then used <span class='hero__subtext_item'>to deplocate the application to the server</span>.",
   },
   {
     imgSrc: "../../assets/image/img3.png",
-    text: "The src folder contains the main folders and files to work with. It is not recommended to place project files outside the src folder, because you may have problems building the application. On the other hand, you can customize the build to your liking and change the paths and file locations.",
+    text: "The <span class='hero__subtext_item'>src</span> folder contains the main folders and files to work with. It is <span class='hero__subtext_item'>not recommended</span> to place project files <span class='hero__subtext_item'>outside the src folder</span>, because you may have <span class='hero__subtext_item'>problems</span> building the application. On the other hand, you can <span class='hero__subtext_item'>customize</span> the build <span class='hero__subtext_item'>to your liking</span> and <span class='hero__subtext_item'>change the paths and file locations</span>.",
   },
   {
     imgSrc: "../../assets/image/img4.png",
-    text: "The assets folder is designed to store and further use pictures and photos. The build is configured to store only svg files in the svd folder. Files of other formats can be stored both in the image folder and in the root of the assets folder.You can change the paths and locations of the files, modifying the assembly for your own convenience, if necessary.",
+    text: "The <span class='hero__subtext_item'>assets</span> folder is designed to <span class='hero__subtext_item'>store and further</span> use pictures and photos. The build is configured to store only <span class='hero__subtext_item'>svg files</span> in the <span class='hero__subtext_item'>svd folder</span>. Files of <span class='hero__subtext_item'>other formats</span> can be stored both in the image folder and in <span class='hero__subtext_item'>the root of the assets folder</span>.You can change the paths and locations of the files, <span class='hero__subtext_item'>modifying</span> the assembly <span class='hero__subtext_item'>for your own convenience</span>, if necessary.",
   },
   {
     imgSrc: "../../assets/image/img5.png",
-    text: "The js folder is used to store and use files like file.js. You can also change some of the data in this folder, but not all. You can learn about unchangeable files and folders in the following slides.",
+    text: "The <span class='hero__subtext_item'>js</span> folder is used to store and use files like <span class='hero__subtext_item'>file.js</span>. You <span class='hero__subtext_item'>can also</span> change some of the data in this folder, <span class='hero__subtext_item'>but not all</span>. You <span class='hero__subtext_item'>can learn</span> about unchangeable files and folders in <span class='hero__subtext_item'>the following slides</span>.",
   },
   {
     imgSrc: "../../assets/image/img6.png",
-    text: "The _functions.js file is needed to import all the created js files of the project. It contains function connections for various project operations. Also through this file the work of various libraries, for example AOS is connected. You can find more details in the file itself. To connect a certain js file to the project you need to comment out the import of the function you need.",
+    text: "The <span class='hero__subtext_item'>_functions.js</span> file is needed to <span class='hero__subtext_item'>import</span> all the created js files of <span class='hero__subtext_item'>the project</span>. It contains <span class='hero__subtext_item'>function connections</span> for various <span class='hero__subtext_item'>project operations</span>. Also through this file the work of various libraries, for example <span class='hero__subtext_item'>AOS</span> is connected. You can find <span class='hero__subtext_item'>more details</span> in the <span class='hero__subtext_item'>file itself</span>. To connect a <span class='hero__subtext_item'>specific js-file</span> to the project, you need to <span class='hero__subtext_item'>uncomment</span> the import of the function you want.",
   },
   {
     imgSrc: "../../assets/image/img7.png",
