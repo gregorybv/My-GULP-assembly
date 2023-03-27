@@ -4,7 +4,7 @@
   position: fixed;
   z-index: 10;
   width: 100%;
-  background: var(--grays-transparent);
+  background: rgb(0 0 0 / 74%);
   // margin-top: 20px;
 
   &__content {
@@ -39,10 +39,11 @@
   }
 
   &__item {
-    font-size: 1.125rem; // 18px
+    font-size: 1.25rem; // 18px
     color: var(--light-color);
 
     &:hover {
+      color: #eb4a4b;
       text-decoration: underline;
       text-underline-offset: 6px;
     }
@@ -50,7 +51,7 @@
 
   &__link {
     color: var(--light-color);
-    font-size: 1.125rem; // 18px
+    font-size: 1.25rem; // 18px
 
     @media (max-width: 915px) {
       font-size: 1rem; // 16px
@@ -65,7 +66,6 @@
   &__button {
     padding: 5px;
     color: var(--light-color);
-    background-color: chartreuse;
     border-radius: 10px;
     font-weight: bold;
     font-size: 1.125rem; // 18px
