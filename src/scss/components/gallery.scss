@@ -2,7 +2,7 @@
 
 .gallery {
   margin-top: 145px;
-  max-width: 1860px;
+  // max-width: 1860px;
   width: 100%;
 
   @media (max-width: 767.98px) {
@@ -22,6 +22,7 @@
     text-align: center;
     padding: 0px;
     gap: 30px;
+
     margin-bottom: 80px;
 
     @media (max-width: 890px) {
@@ -37,11 +38,11 @@
   // }
 
   &__block {
-    padding: 0px 15px;
+    // padding: 0px 15px;
     margin: 0 auto;
 
     @media (max-width: 767.98px) {
-      padding: 0px 21px;
+      // padding: 0px 21px;
     }
 
     &_hidefirst {
@@ -67,8 +68,8 @@
       // gap: 20px;
     }
 
-    @media (max-width: 520.98px) {
-      gap: 10px;
+    @media (max-width: 790.98px) {
+      gap: 5px;
     }
   }
 
@@ -113,12 +114,12 @@
       // gap: 20px;
     }
 
-    @media (max-width: 850.98px) {
-      // margin: 18px 0px 18px 0px;
+    @media (max-width: 790.98px) {
+      margin: 5px 0px 5px 0px;
     }
 
-    @media (max-width: 520.98px) {
-      gap: 10px;
+    @media (max-width: 790.98px) {
+      gap: 5px;
     }
   }
 
