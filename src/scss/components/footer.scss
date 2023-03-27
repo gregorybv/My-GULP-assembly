@@ -40,10 +40,10 @@
   &__networks {
     display: flex;
     flex-direction: row;
-    gap: 38px;
+    gap: 20px;
 
     @media (max-width: 767.98px) {
-      gap: 20px;
+      gap: 15px;
     }
   }
 
@@ -62,7 +62,7 @@
   &__link {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
@@ -84,6 +84,6 @@
   }
 
   &__img {
-    width: 45px;
+    width: 20px;
   }
 }
