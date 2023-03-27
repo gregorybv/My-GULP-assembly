@@ -76,7 +76,7 @@ const modalData = [
   },
   {
     imgSrc: "../../assets/image/img7.png",
-    text: "The functions folder stores a collection of individual codes for the specific operation of your application. You can learn about the functions of a particular code from the file name that characterizes it. It is also recommended that you use the components folder for a similar place to store individual functions.",
+    text: "The <span class='hero__subtext_item'>functions</span> folder stores a collection of individual codes for the <span class='hero__subtext_item'>specific</span> operation of your application. You can learn about the functions of a particular code from the file name that <span class='hero__subtext_item'>characterizes it</span>. It is also <span class='hero__subtext_item'>recommended</span> that you use the <span class='hero__subtext_item'>components</span> folder for a <span class='hero__subtext_item'>similar place</span> to store individual functions.",
   },
   {
     imgSrc: "../../assets/image/img8.png",
