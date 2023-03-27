@@ -80,7 +80,7 @@ const modalData = [
   },
   {
     imgSrc: "../../assets/image/img8.png",
-    text: "The index.html file is a summary file for all the html elements in the project. The @include('folder/text.html') method is used to connect the individual html components. ",
+    text: "The <span class='hero__subtext_item'>index.html</span> file is a <span class='hero__subtext_item'>summary file</span> for all the html elements in the project. The <span class='hero__subtext_item'>@include('folder/text.html')</span> method is used to <span class='hero__subtext_item'>connect</span> the individual <span class='hero__subtext_item'>html components</span>. ",
   },
   {
     imgSrc: "../../assets/image/img9.png",
