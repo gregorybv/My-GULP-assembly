@@ -4,7 +4,7 @@
   // position: fixed;
   // bottom: 0;
   width: 100%;
-  background: var(--grays-transparent);
+  background: rgb(0 0 0 / 74%);
 
   &__content {
     height: 60px;
@@ -28,7 +28,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    color: var(--dark-color);
+    color: var(--light-color);
 
     @media (max-width: 767.98px) {
       font-size: 16px;
@@ -66,7 +66,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    color: var(--dark-color);
+    color: var(--light-color);
 
     @media (max-width: 767.98px) {
       font-size: 16px;
