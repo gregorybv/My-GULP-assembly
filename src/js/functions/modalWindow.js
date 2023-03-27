@@ -52,7 +52,7 @@
 const modalData = [
   {
     imgSrc: "../../assets/image/img1.png",
-    text: "General project structure. All required swap files and dependencies are already installed. All you need to do to get started is to type npm i at the command line to install Node. The node modules folder will appear in your project and you can start developing.",
+    text: "General project structure. All required swap files and dependencies <span class='hero__subtext_item'>are already installed</span>. All you need to do to get started is to type <span class='hero__subtext_item'>npm i</span> at the command line to install <span class='hero__subtext_item'>Node</span>. The <span class='hero__subtext_item'>node modules</span> folder will appear in your project and you can <span class='hero__subtext_item'>start developing</span>.",
   },
   {
     imgSrc: "../../assets/image/img2.png",
