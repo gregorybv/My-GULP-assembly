@@ -100,7 +100,7 @@ const modalData = [
   },
   {
     imgSrc: "../../assets/image/img13.png",
-    text: "The main.scss file is used as a summary file of all styles. It already has a lot of connections to different blocks. To use them, just find the appropriate file in the project, examine it, and comment out the appropriate line of code in main.scss.",
+    text: "The <span class='hero__subtext_item'>main.scss</span> file is used as a <span class='hero__subtext_item'>summary</span> file of all styles. It already has a <span class='hero__subtext_item'>lot of connections</span> to different blocks. To use them, just find <span class='hero__subtext_item'>the appropriate</span> file in the project, <span class='hero__subtext_item'>examine it</span>, and <span class='hero__subtext_item'>uncomment</span> the appropriate line of code in <span class='hero__subtext_item'>main.scss</span>.",
   },
 ];
 // получаем элементы, на которые будем кликать, и модальное окно
