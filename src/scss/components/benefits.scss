@@ -7,8 +7,6 @@
   &__item {
     position: relative;
     margin: 50px 50px;
-    // display: flex;
-    // gap: 30px;
 
     @media (max-width: 900px) {
       margin: 30px 50px;
@@ -40,7 +38,6 @@
   }
 
   &__text {
-    // text-align: start;
   }
 
   &__subtext {
@@ -49,8 +46,9 @@
     font-weight: 400;
     font-size: 1.25rem; //20px
     line-height: 27px;
+
     @media (max-width: 700px) {
-      font-size: 1rem;
+      font-size: 1rem; // 16px
     }
   }
 
@@ -59,6 +57,7 @@
     left: 359px;
     top: 115px;
     max-width: 350px;
+
     @media (max-width: 1170px) {
       display: none;
     }
