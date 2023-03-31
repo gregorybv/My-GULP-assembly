@@ -25,12 +25,8 @@
     gap: 30px;
   }
 
-  // .hero__text
-
   // &__text {
   // }
-
-  // .hero__subtext
 
   &__subtext {
 
@@ -39,15 +35,11 @@
     }
   }
 
-  // .hero__fon
-
   &__fon {
     @media (max-width: 890px) {
       display: none;
     }
   }
-
-  // .hero__img
 
   // &__img {
   // }
