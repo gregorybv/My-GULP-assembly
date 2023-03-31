@@ -1,7 +1,6 @@
 //=== STYLES FOR FORM ===//
 
 .forma {
-  // max-width: 900px;
 
   &__form {
     margin: 0 auto;
@@ -135,9 +134,6 @@
     }
   }
 
-  // &__age {
-  // }
-
   &__radios {
     display: flex;
     flex-direction: row;
@@ -256,6 +252,7 @@
 
     &_link {
       color: var(--dark-color);
+
       cursor: pointer;
 
       &:hover {
