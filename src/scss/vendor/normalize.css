@@ -16,20 +16,9 @@ hr {
 	height: 0;
 	overflow: visible;
 }
-/*
-pre {
-	font-family: monospace, monospace;
-	font-size: 1em;
-} */
 
 a {
 	background-color: transparent;
-}
-
-abbr[title] {
-	border-bottom: none;
-	text-decoration: underline;
-	text-decoration: underline dotted;
 }
 
 b,
