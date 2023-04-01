@@ -25,9 +25,6 @@
     gap: 30px;
   }
 
-  // &__text {
-  // }
-
   &__subtext {
 
     &_item {
@@ -36,6 +33,7 @@
   }
 
   &__fon {
+    
     @media (max-width: 890px) {
       display: none;
     }
