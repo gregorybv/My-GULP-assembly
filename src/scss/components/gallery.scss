@@ -3,7 +3,6 @@
 .gallery {
   margin-top: 145px;
   margin-bottom: 70px;
-  // max-width: 1860px;
   width: 100%;
 
   @media (max-width: 767.98px) {
@@ -31,16 +30,8 @@
     }
   }
 
-  // &__title {
-  // }
-  // &__subtitle {
-  // }
   &__block {
     margin: 0 auto;
-
-    @media (max-width: 767.98px) {
-      // padding: 0px 21px;
-    }
 
     &_hidefirst {
       @media (max-width: 1169.98px) {
