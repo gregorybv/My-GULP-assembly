@@ -65,9 +65,10 @@
     border-radius: 10px;
     margin: 8px 0px 0px 0px;
     padding-left: 20px;
-    color: var(--gray-color);
     font-size: 20px;
     line-height: 142%;
+
+    color: var(--gray-color);
 
     &:hover {
       background: var(--grays-color);
@@ -75,11 +76,11 @@
 
     &:focus {
       background: var(--grays-color);
-      color: var(--dark-color);
       outline: 1px solid var(--gray-color);
       outline-color: var(--gray-color);
       outline-width: thin;
       border-radius: 10px;
+      color: var(--dark-color);
     }
 
     &:active {
@@ -165,6 +166,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 142%;
+    
     color: var(--dark-color);
 
     cursor: pointer;
