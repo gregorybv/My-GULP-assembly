@@ -63,7 +63,7 @@
     height: 68px;
     background: var(--fon-color);
     border-radius: 10px;
-    margin: 8px 0px 0px 0px;
+    margin: 8px 0 0 0;
     padding-left: 20px;
     font-size: 20px;
     line-height: 142%;
@@ -100,7 +100,7 @@
       height: 43px;
       padding-left: 10px;
       border-radius: 10px;
-      margin: 9px 0px 0px 0px;
+      margin: 9px 0 0 0;
     }
   }
 
@@ -114,7 +114,7 @@
     border-radius: 10px;
     outline: 0px solid var(--gray-color);
     padding: 20px;
-    margin: 8px 0px 0px 0px;
+    margin: 8px 0 0 0;
     height: 146px;
     width: 100%;
 
@@ -166,7 +166,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 142%;
-    
+
     color: var(--dark-color);
 
     cursor: pointer;
@@ -223,7 +223,7 @@
     display: flex;
     align-items: flex-start;
     column-gap: 19px;
-    margin: -12px 0px 0px 0px;
+    margin: -12px 0 0 0;
 
     @media (max-width: 1024px) {
       column-gap: 11px;
