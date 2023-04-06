@@ -26,13 +26,13 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    
+
     color: var(--light-color);
 
     @media (max-width: 767.98px) {
       font-size: 16px;
       line-height: 142%;
-      padding: 0px 20px 0px 0px;
+      padding: 0 20px 0 0;
     }
   }
 
