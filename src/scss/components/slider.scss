@@ -1,5 +1,4 @@
 //=== STYLES FOR SLIDER ===//
-
 .slider {
   margin: 100px auto 0px;
 
@@ -31,10 +30,12 @@
     scroll-snap-align: start;
 
     @media screen and (max-width: 1024px) {
+
       width: calc(33.3vw - 20px);
     }
 
     @media screen and (max-width: 768px) {
+
       width: calc(50vw - 20px);
     }
   }
@@ -51,10 +52,12 @@
     text-align: center;
 
     @media screen and (max-width: 1024px) {
+
       display: none;
     }
 
     @media screen and (max-width: 768px) {
+
       display: none;
     }
   }
@@ -71,7 +74,7 @@
     margin: 0 10px;
 
     &:hover {
-      
+
       background-color: #9f9b9b;
     }
   }
