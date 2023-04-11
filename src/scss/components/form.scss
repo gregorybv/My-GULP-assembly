@@ -226,6 +226,7 @@
     margin: -12px 0 0 0;
 
     @media (max-width: 1024px) {
+      
       column-gap: 11px;
     }
   }
@@ -248,9 +249,6 @@
     color: var(--gray-color);
 
     cursor: pointer;
-
-    // &_input {
-    // }
 
     &_link {
       color: var(--dark-color);
@@ -279,6 +277,7 @@
     }
 
     @media (max-width: 767.98px) {
+
       font-size: 16px;
       line-height: 142%;
     }
@@ -295,6 +294,7 @@
     border-radius: 5px;
 
     &::after {
+
       content: "";
       position: absolute;
       display: none;
