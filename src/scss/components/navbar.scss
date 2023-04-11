@@ -1,5 +1,4 @@
 //=== STYLES FOR NAVBAR ===//
-
 .navbar {
   position: fixed;
   z-index: 10;
@@ -47,6 +46,7 @@
     font-size: 1.25rem; // 18px
 
     @media (max-width: 915px) {
+
       font-size: 1rem; // 16px
     }
   }
